@@ -1,6 +1,6 @@
 # TaskSymphony - A Minimalist To-Do List App
 
-![TaskSymphony Screenshot](screenshot.png)
+![TaskSymphony Screenshot](images/Screenshot(1).png)
 
 TaskSymphony is a simple, lightweight, and elegant to-do list app that helps you organize your tasks with ease. It allows you to add, check, and delete tasks, providing a straightforward task management experience. With a focus on simplicity, TaskSymphony keeps the clutter at bay and ensures that every task is a note in your personal symphony.
 

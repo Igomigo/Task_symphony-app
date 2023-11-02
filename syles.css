@@ -1,0 +1,158 @@
+/* Reset default margin and padding for the entire page */
+body, h1, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the whole page */
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with a gradient background */
+.header {
+    background: linear-gradient(to right, #0f5830, #135074);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Center the container and apply background color */
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+    max-width: 100%;
+    background-image: url("images/to-do_background_img.jpg"); /* Same as body background */
+    background-repeat: repeat;
+}
+
+/* Style the to-do section */
+.section1 {
+    background: radial-gradient(rgb(88, 160, 148), rgb(32, 102, 32));
+    /*background-image: url("images/to-do_vector_2.jpg");*/
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7),
+                -2px -2px 8px rgba(0, 0, 0, 0.7);
+    padding: 60px;
+    border-radius: 5px;
+    width: 420px;
+    height: 40vh;
+    overflow: auto;
+    max-width: 500px;
+}
+
+/* Style the input and button */
+#textInput {
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#Button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#Button:hover {
+    background-color:rgb(12, 12, 12);
+}
+
+/* Style the task list */
+#tasklist {
+    list-style: none;
+    padding: 0;
+}
+
+/*style the to-do heading within the tasklist*/
+.to-do {
+    display: flex;
+    padding-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* style the to-do image */
+.to-do_image {
+    size: 10px;
+    width: 62px;
+    height: 62px;
+}
+
+/* Style individual tasks */
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+/* Style the li content */
+.content {
+    flex: 1;
+    padding-left: 15px;
+    padding-right: 5px;
+    max-width: 90%;
+}
+
+/* Style the delete button */
+.delete {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    padding-left: 12px;
+}
+
+.delete:hover {
+    background-color: #612a24;
+}
+
+/* Style the delete All button */
+.deleteAll {
+    background-color: rgb(216, 14, 14);
+}
+
+.deleteAll:hover {
+    background-color: #612a24;
+}
+
+/* Style the checkAll button */
+.checkAll {
+    background-color: rgba(37, 87, 226, 0.849);
+}
+
+.checkAll:hover {
+    background-color: rgba(38, 0, 255, 0.993);
+}
+
+/* Style the delcheckAll div */
+.delcheckAll {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Adjust footer styling */
+.footer {
+    background: linear-gradient(to right, #0f5830, #135074);
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 14px;
+    margin: 0;
+}

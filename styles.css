@@ -45,6 +45,13 @@ body {
     max-width: 500px;
 }
 
+/* Adjust the section1 padding for better display on mobile */
+@media screen and (max-width: 768px) {
+    .section1 {
+	padding: 10px;
+    }
+}
+
 /* Style the input and button */
 #textInput {
     width: 70%;
